@@ -454,13 +454,16 @@
     }
   },
   "tenant": {
-    "tenants": {
-      "masterName": "tenants",
+  "masters": [
+    {
+      "name": "tenants",
       "isStateLevel": true,
-      "moduleDefinition": null,
       "uniqueKeys": [
         "$.code"
       ]
+    }
+  ]
+
     },
     "citymodule": {
       "masterName": "citymodule",
